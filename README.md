@@ -17,8 +17,15 @@ audio sample rate: 44.1 kHz
 audio bitrate: 320 kbps
 channels: stereo (recommended mono to avoid the hollow middles)
 
-THESE ARE POSSIBLY JUST THE BEGINNING
+(not related to video)
+biggest sd card it can support (possibly more): 128gb microsd cx I (yes it read my entire storage)
+fomrat: fat32
 
+pro-tip: u can convert flac files into wav to have a sleeper music player
+
+
+THESE ARE POSSIBLY JUST THE BEGINNING
+I GENUINELY SWEAR THESE WORK
 
 ffmpeg script i use:
 ffmpeg -i input.mp4 \
