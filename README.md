@@ -28,8 +28,10 @@ THESE ARE POSSIBLY JUST THE BEGINNING
 I GENUINELY SWEAR THESE WORK
 
 ffmpeg script i use:
+```bash
 ffmpeg -i input.mp4 \
   -vf "hqdn3d=1.5:1.5:3:3,scale=384:-2:flags=spline+accurate_rnd+full_chroma_int,eq=contrast=1.06:saturation=1.12:brightness=0.02" \
   -c:v mpeg4 -vtag mp4v -pix_fmt yuv420p -r 60 -b:v 1300k \
   -c:a aac -ac 2 -ar 44100 -b:a 320k \
   output.mp4
+```
